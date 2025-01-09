@@ -7,7 +7,30 @@
     font-style: normal;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.primary_bg_color {
+    background-color: #FFF8F3;
+}
+
+
+.background_image {
+    background-color: #FFF8F3;
+    background-image: url(/images/developer.png), url(/images/header_bg.png);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    /* margin-top: 0; */
+    margin: 38px 0px 25px 23px;
+
+}
 
 nav {
     display: flex;
@@ -85,9 +108,108 @@ a {
     margin-right: 38px;
 }
 
-#background_image {
-    background-image: url(/images/developer.png), url(/images/header_bg.png);
-    background-position: top left, bottom right;
-    background-repeat: no-repeat;
-    margin: 38px 0px 25px 23px;
+
+
+
+
+/* About page style */
+
+.about {
+    text-align: center;
+}
+
+.about_container {
+    /* background-color: #FFFFFF; */
+    margin-top: 130px;
+    padding: 138px 156px 128px 156px;
+    /* border: 2px solid black; */
+}
+
+.about_infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.about_description {
+    font-size: 18px;
+    font-weight: normal;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.about_infos .about_info p {
+    font-size: 20px;
+    font-weight: normal;
+    color: #757575;
+}
+
+.about_infos .about_info h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+}
+
+/* What I do section styles */
+.skills_section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+    /* text-align: center; */
+}
+
+.skills_section .what_i_do_title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.skills_section .what_i_do_description {
+    font-size: 18px;
+    font-weight: regular;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 30px;
+    margin: 0px 116px 50px 116px;
+}
+
+.skills_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.skill {
+    padding: 30px 33px 30px 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.skill img {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 30px;
+}
+
+.skill h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.skill p {
+    font-size: 16px;
+    font-weight: regular;
+    color: #757575;
+    /* margin-bottom: 20px; */
 }
