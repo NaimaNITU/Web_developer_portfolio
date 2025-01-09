@@ -233,4 +233,41 @@ a {
     font-size: 30px;
     font-weight: bold;
     color: rgba(71, 71, 71, 1);
+    margin-bottom: 30px;
+    margin-top: 113px;
+}
+
+.education {
+    padding-right: 71px;
+}
+
+.education h3,
+.experience h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(71, 71, 71, 1);
+    margin-bottom: 10px;
+}
+
+.education h5,
+.experience h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(117, 117, 117, 1);
+    margin-bottom: 20px;
+}
+
+.education p,
+.experience p {
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(117, 117, 117, 1);
+    margin-bottom: 30px;
+}
+
+.btnn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 113px;
 }
