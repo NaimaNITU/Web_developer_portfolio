@@ -213,3 +213,24 @@ a {
     color: #757575;
     /* margin-bottom: 20px; */
 }
+
+
+
+/* Resume section style */
+.resume_title {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgba(24, 24, 24, 1);
+    text-align: center;
+}
+
+.resume_container {
+    display: flex;
+}
+
+.resume_container .my_education_title,
+.my_experience_title {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(71, 71, 71, 1);
+}
